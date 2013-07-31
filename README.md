@@ -1,6 +1,6 @@
 ## Getting started with the neo4j batch importer
 
-These are accompanying notes for the [getting started with neo4j batch importer](https://vimeo.com/71408668) video.
+These are accompanying notes for the [getting started with neo4j batch importer](https://vimeo.com/71408668) video. You can learn more about the [batch importer](https://github.com/jexp/batch-import) from [its github page](https://github.com/jexp/batch-import).
 
 ## Pre video steps
 
