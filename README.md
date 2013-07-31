@@ -1,8 +1,8 @@
-# Getting started with the neo4j batch importer
+## Getting started with the neo4j batch importer
 
 These are accompanying notes for the [getting started with neo4j batch importer](https://vimeo.com/71408668) video.
 
-# Pre video steps
+## Pre video steps
 
 1. [Download neo4j](http://www.neo4j.org/download) - I used version 1.9.1 in the video but any of the 1.9.* series should be fine.
 2. Create nodes and relationships files. I ran the following commands:
@@ -14,7 +14,7 @@ These are accompanying notes for the [getting started with neo4j batch importer]
 
     which uses [bundler](http://bundler.io/) - a ruby tool used to manage dependencies. This step can be replaced with your own CSV generating code.
 
-# Terminal history from the video
+## Terminal history from the video
 
     ````
     ./neo4j-community-1.9.1/bin/neo4j stop
