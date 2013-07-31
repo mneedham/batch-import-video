@@ -1,6 +1,6 @@
 ## Getting started with the neo4j batch importer
 
-These are accompanying notes for the [getting started with neo4j batch importer](https://vimeo.com/71408668) video. You can learn more about the [batch importer](https://github.com/jexp/batch-import) from [its github page](https://github.com/jexp/batch-import).
+These are accompanying notes for the [getting started with neo4j batch importer](https://vimeo.com/71408668) video.
 
 ## Pre video steps
 
@@ -23,3 +23,7 @@ These are accompanying notes for the [getting started with neo4j batch importer]
     head -n 10 relationships.tsv
     java -jar batch-import-full-1.9.jar neo4j-community-1.9.1/data/graph.db nodes.tsv relationships.tsv
     ./neo4j-community-1.9.1/bin/neo4j start    
+
+## Post video steps
+
+You can learn more about the [batch importer](https://github.com/jexp/batch-import) from [its github page](https://github.com/jexp/batch-import).
