@@ -16,12 +16,10 @@ These are accompanying notes for the [getting started with neo4j batch importer]
 
 ## Terminal history from the video
 
-    ````
     ./neo4j-community-1.9.1/bin/neo4j stop
     curl http://dist.neo4j.org.s3.amazonaws.com/jexp/batch-import/batch-import-full-1.9.jar -o batch-import-full-1.9.jar
     java -jar batch-import-full-1.9.jar
     head -n 10 nodes.tsv
     head -n 10 relationships.tsv
     java -jar batch-import-full-1.9.jar neo4j-community-1.9.1/data/graph.db nodes.tsv relationships.tsv
-    ./neo4j-community-1.9.1/bin/neo4j start
-    ````    
+    ./neo4j-community-1.9.1/bin/neo4j start    
